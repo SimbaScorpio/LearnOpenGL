@@ -14,7 +14,7 @@ set(GLFW_LINK /usr/local/lib/libglfw.3.dylib)
 link_libraries(${GLFW_LINK})
 
 # 执行编译命令
-set(SOURCES src/glad.c src/shader.cpp src/stb_image.cpp src/main.cpp)
+set(SOURCES src/glad.c src/shader.cpp src/camera.cpp src/stb_image.cpp src/main.cpp)
 add_executable(LearnOpenGL ${SOURCES})
 
 # 链接系统的 OpenGL 框架
